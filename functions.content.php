@@ -1,6 +1,6 @@
 <?php
 
-//доавлем
+//добавлем
 add_filter( 'pre_post_tax_input', 'no_tax_input_create' );
 
 function no_tax_input_create($tax_input) {
